@@ -12,37 +12,34 @@ En este repositorio encontrarás los archivos de entrada, así como las salidas 
 ```
 <span style="text-decoration: underline;">De manera individual</span>, desarrolla la solución del siguiente problema:
 
-Un **concurso de programación competitiva** es un concurso de programación algorítmica para estudiantes universitarios. En equipos de tres trabajarán para resolver la mayoría de los problemas del mundo real, fomentando la colaboración, la creatividad, la innovación y la capacidad de desempeñarse bajo presión. 
+Recientemente, mientras navegabas por un foro de programación, encontraste una discusión sobre un concurso bastante interesante. El concurso se llama "anagramas digitales" y el reto consiste en encontrar todos los anagramas de una palabra dada dentro de una cadena más larga. Los anagramas, como bien sabes, son palabras o frases formadas reorganizando las letras de otra palabra, utilizando todas sus letras originales exactamente una vez.
 
-Los equipos concursantes se clasifican primero por la cantidad de problemas resueltos (cuantos más, mejor), luego por la cantidad decreciente de tiempo de penalización. Si dos o más participantes están empatados tanto en problemas resueltos como en tiempo de penalización, se califican en orden creciente de número de equipo.
+Fascinante, ¿verdad? Y el premio es aún más asombroso: ¡El Premio Nobel de la Paz!
 
-Un problema se considera resuelto por un equipo concursante si alguna de las presentaciones para ese problema se consideró correcta. El tiempo de penalización se calcula como la cantidad de minutos que tomó el primer envío correcto para que se recibiera un problema más 20 minutos por cada envío incorrecto recibido antes de la solución correcta. Si existe un envío posterior de un problema ya resuelto, no se toma en cuenta. Los problemas no resueltos no incurren en penalizaciones de tiempo.
+Con el Premio Nobel de la Paz ya visualizado en tus manos, te sumerges en la resolución de este "sencillo" problema utilizando todos tus conocimientos de programación.
 
 ## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
-La entrada consiste en una instantánea de la fila de evaluación, que contiene entradas de algunos o todos los concursantes del 1 al 100 que resuelven los problemas del 1 al 9. Cada línea de entrada constará de tres números y una letra:
-```
-#team #problem time result
-```
-Donde *result* puede ser 'C', 'I', 'R', 'U' o 'E'. Estos representan la presentación correcta (*Correct*), incorrecta (*Incorrect*), de solicitud de aclaración (*Request*), no juzgada (*Unjudged *) y errónea (*Erroneous *). Los últimos tres casos no afectan la puntuación.
-
-Las líneas de entrada están en el orden en que se recibieron los envíos.
+Puede haber múltiples casos de prueba. La primera línea del archivo de entrada contiene el número de casos de prueba, *T* (1 ≤ *T* ≤ 25). A continuación, se presentan *T* casos. Cada caso consta de dos líneas: la primera línea contiene una cadena de caracteres, *s*, y la segunda línea contiene una palabra, *p*.
 
 ## <span style="color: rgb(26, 99, 169);">**Salida**</span>
-La salida consistirá en un marcador ordenado como se ha descrito anteriormente. Cada línea de salida contendrá un número de concursante, el número de problemas resueltos por el concursante y el tiempo de penalización acumulado por el concursante. Dado que no todos los concursantes del 1 al 100 están participando, muestre solo los concursantes que han realizado una presentación.
+Muestra una lista de los índices de inicio de cada anagrama de *p* en *s*.
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
-1 2 10 I
-3 1 11 C
-1 2 19 R
-1 2 21 C
-1 1 25 C
+3
+cbaebabacd
+abc
+abab
+ab
+acdbacdacb
+abc
 ```
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de salida**</span>
 ```
-1 2 66
-3 1 11
+[0, 6]
+[0, 1, 2]
+[3, 7]
 ```
 
 Para probar tu implementación, compila tu programa con el comando:
