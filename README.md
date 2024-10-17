@@ -57,16 +57,15 @@ Por último, realiza una investigación y reflexión en forma individual de la
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
-- **80%** - Para cada una de las funcionalidades se evaluará:
+- **65%** - Para cada una de las funcionalidades se evaluará:
 
-    - **Excelente (80%)** - pasa correctamente todos los casos de prueba.
-    - **Muy Bien (60%)** - pasa correctamente el 75% de los casos de prueba.
-    - **Bien (40%)** - pasa correctamente el 50% de los casos de prueba.
-    - **Insuficiente (20%)** - pasa correctamente menos del 50% de los casos de prueba.
-
-
-- **10%** - El código deberá seguir los lineamientos estipulados en el estándar de codificación: <span class="instructure_file_holder link_holder">[liga_estándar_codificación](estandar.pdf)</span>
-- **10%** - Se respetenan los nombres de las funciones en la aplicación.
+    - **Excelente (65%)** - pasa correctamente todos los casos de prueba.
+    - **Muy Bien (44%)** - pasa correctamente el 75% de los casos de prueba.
+    - **Insuficiente (22%)** - pasa correctamente menos del 50% de los casos de prueba.
+      
+- **10%** - El código deberá seguir los lineamientos estipulados en el estándar de codificación: <span class="instructure_file_holder link_holder">[liga_estándar_codificación](https://github.com/Manchas2k4/tc1031)</span>
+- **10%** - Especifican en cada uno de las funcionalidades la complejidad computacional como parte de su documentación.
+- **15%** - Empleados los algoritmos y estructuras de datos más eficientes para la solución del problema.
 
 ## <span style="color: rgb(26, 99, 169);">**¿Dónde la entrego?**</span>
 Esta actividad forma parte tanto de tu calificación final del curso, así como del portafolio de evidencias de las competencias a desarrollar del curso, por lo que se te pide que en forma individual:
